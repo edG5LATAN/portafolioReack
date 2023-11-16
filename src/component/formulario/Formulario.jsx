@@ -23,7 +23,7 @@ function Formulario() {
           <button type="submit" className='formulario-btn'>Enviar</button>
 
           </div>
-          <input type="hidden" name="_next" value="http://localhost:5173/"/>
+          <input type="hidden" name="_next" value="https://portafolio-reack.vercel.app/"/>
           <input type="hidden" name="_captcha" value="false" />
         </form>
       </div>
