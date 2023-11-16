@@ -1,0 +1,82 @@
+.pasatiempo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.pasatiempos-h{
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.pasatiempo-contenedor{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1em;
+  overflow: hidden;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.pasatiempo-caja{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px 3px black;
+}
+.pasatiempo-caja:hover{
+  transform: scale(1.03);
+}
+.pasatiempo-caja-img{
+ width: 100%;
+ height: 200px;
+}
+.pasatiempo-p{
+  text-align: center;
+  color: black;
+  font-size: 28px;
+}
+@media (max-width:480px) {
+  .pasatiempo{
+    width: 100%;
+  }
+  .pasatiempos-h{
+    margin-top: 28px;
+ 
+  }
+  .pasatiempo-contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: unset;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+  }
+  .pasatiempo-caja{
+    width: 180px;
+    height: 200px;
+    padding: 3px;
+    margin: 4px;
+
+  }
+  .pasatiempo-caja:hover{
+    transform: scale(1.03);
+  }
+  .pasatiempo-caja-img{
+   width: 100%;
+   height: 150px;
+  }
+  .pasatiempo-p{
+    text-align: center;
+    color: black;
+    font-size: 19px;
+  }
+}

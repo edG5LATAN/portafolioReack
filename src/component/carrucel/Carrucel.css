@@ -1,0 +1,126 @@
+
+.carrucel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrucel-caja{
+  width: 100%;
+  border: 1px solid;
+  display:flex;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.carrucel-img{
+  width: 100%;    
+  height: 500px;
+  object-fit: fill;
+}
+.slick-slide {
+    width: 500px;
+}
+.carrucel-informacion{
+    background-color: rgba(255, 255, 255, 0.89);
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    display: none;
+}
+.carrucel-caja:hover .carrucel-informacion{
+    display: block;
+}
+.carrucel-info-h{
+font-size: 24px;
+padding: 10px 0;
+text-transform: uppercase;
+}
+.carrucel-info-p{
+  font-size:19px ;
+  text-align: justify;
+  font-weight:light;
+}
+.carrucel-botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.carrucel-btn{
+    width: 150px;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(167, 155, 155, 0.897);
+}
+.carrucel-btn:hover{
+    cursor: pointer;
+    background-color: rgb(58, 51, 51);
+    color: white;
+}
+@media (max-width:480px) {
+    .carrucel{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carrucel-caja{
+      width: 500px;
+      border: 1px solid;
+      display:flex;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    /* .carrucel-informacion{
+    } */
+    .carrucel-img{
+      width: 100%;    
+      height: 400px;
+      object-fit: fill;
+    }
+    .slick-slide {
+        width: 300px;
+    }
+    .carrucel-informacion{
+        background-color: rgba(255, 255, 255, 0.795);
+        height: 100%;
+        color: black;
+        position: absolute;
+        top: 0;
+        padding: 10px;
+        display: none;
+    }
+    .carrucel-caja:hover .carrucel-informacion{
+        display: block;
+    }
+    .carrucel-info-h{
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px 0;
+
+    }
+    .carrucel-info-p{
+      font-size:14px ;
+    
+    }
+    .carrucel-botones{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+    .carrucel-btn{
+        width: 100px;
+        padding: 5px 0;
+        font-size: 14px;      
+    }
+
+}

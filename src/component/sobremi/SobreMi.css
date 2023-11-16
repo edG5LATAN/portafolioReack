@@ -1,0 +1,39 @@
+.sobremi{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.sobremi-contenedor{
+  width: 70%;
+  color: white;
+}
+.sobremi-titulo{
+  margin-bottom: 20px;
+  font-size: 33px;
+}
+.sobremi-p{
+  padding: 5px 0;
+  font-size: 20px;
+  text-align: justify;
+}
+.sobremi-firma{
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px; 
+  margin: 10px 0;
+}
+@media (max-width:1000px) {
+  .sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+}
+@media(max-width:480px){
+  .sobremi-contenedor{
+    width: 90%;
+  }
+}

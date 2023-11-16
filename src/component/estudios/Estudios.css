@@ -1,0 +1,120 @@
+.estudio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.estudio-h {
+  margin: 35px 0;
+  text-transform: uppercase;
+}
+
+.estudio-contenedor {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.estudio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  box-shadow: 3px 3px 3px 3px rgb(8, 0, 0);
+}
+
+.estudio-informacion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgba(15, 13, 13, 0.781);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  display: none;
+  padding: 10px 20px;
+}
+
+.formacion-p-titulo {
+  font-weight: bolder;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.estudio-informacion-p,
+li {
+  font-weight: bold;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.estudio-img {
+  width: 100%;
+  height: 90%;
+}
+
+.estudio-card:hover .estudio-informacion {
+  transform: scale(1.02);
+  display: flex;
+}
+
+.estudio-h3 {
+  text-transform: uppercase;
+  color: black;
+}
+
+@media (max-width:480px) {
+  .estudio {
+
+    padding: 5px 0;
+  }
+
+  .estudio-h {
+    margin: 30px 0;
+  }
+
+  .estudio-contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  }
+
+  .estudio-card {
+
+    width: 300px;
+    height: 300px;
+
+    padding: 5px;
+    margin: 5px;
+
+  }
+
+
+  .estudio-img {
+    width: 100%;
+    height: 100%;
+  }
+
+}

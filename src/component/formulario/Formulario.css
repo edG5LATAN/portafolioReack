@@ -1,0 +1,120 @@
+.formulario {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formulario-h{
+  text-transform: uppercase;
+}
+.formulario-contenedor{
+  background-color: gray;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+form{
+  display: grid;
+  width: 90%;
+  box-sizing: border-box;
+}
+form label{
+  font-size: 18px;
+  padding-top: 10px;
+  color: black;
+}
+form input{
+  padding: 5px;
+  border-radius: 5px;
+  border: navajowhite;
+  font-size: 19px;
+  box-sizing: border-box;
+}
+form textarea{
+  resize: none;
+  font-size: 19px;
+  border: navajowhite;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.formulario-contenedor-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.formulario-btn{
+  margin-top: 10px;
+  width: 150px;
+  padding: 5px;
+  font-size: 19px;
+}
+@media (max-width:1000px) {
+  .formulario{
+    padding-top:30px ;
+  }
+  .formulario-contenedor{
+    margin-top: 20px;
+  }
+}
+@media (max-width:480px){
+  .formulario {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .formulario-h{
+    text-align: center;
+  }
+  .formulario-contenedor{
+    background-color: gray;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 15px;
+  }
+  form{
+    display: grid;
+    width: 90%;
+    box-sizing: border-box;
+  }
+  form label{
+    font-size: 18px;
+    padding-top: 10px;
+    color: black;
+  }
+  form input{
+    padding: 5px;
+    border-radius: 5px;
+    border: navajowhite;
+    font-size: 19px;
+    box-sizing: border-box;
+  }
+  form textarea{
+    resize: none;
+    font-size: 19px;
+    border: navajowhite;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .formulario-contenedor-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .formulario-btn{
+    margin-top: 10px;
+    width: 150px;
+    padding: 5px;
+    font-size: 19px;
+  }
+}
