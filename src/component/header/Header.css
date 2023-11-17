@@ -45,6 +45,9 @@ justify-content: center;
   color: blue;
   cursor: pointer;
 }
+a:focus .navI{
+  color: red;
+}
 @media (max-width:1000px){
   .header{
     width: 100%;
