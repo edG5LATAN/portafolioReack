@@ -10,8 +10,8 @@ function Home() {
           <h1>Edwin Castro</h1>
           <h3>Programador junior con conocimiento en Java y Reack</h3>
           <p>
-            Soy graduado dela promocion g5 de alura latan y Oracle nextEducation
-            con conocimiento en Java y en React
+            Soy graduado de la promocion Alura latan, Oracle nextEducation, UDEMY
+            con conocimiento en lenguage Java, SpringBoot, React, JavaScript.
           </p>
           <div className="home-informacion-contenedor-icono">
             <a
