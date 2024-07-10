@@ -11,7 +11,7 @@ function SobreMi() {
           electronica en telefonia donde adquiri conocimiento en programacion 
           donde ahora ya creamos varios proyectos uno de ellos es
           esta pagina de portafolio con algunos trabajos echos hasta la fecha
-          gracias ala ayuda de ORACLE, ALURA LATAM, UDEMY, JAB...y continuo aprendiendo
+          gracias ala ayuda de ORACLE, ALURA, UDEMY, JAB... y continuo aprendiendo
           y seguir avanzando en un mundo de tecnologia donde crece mas dia a dia.
         </p>
         <p className='sobremi-firma'>Edwin Castro</p>
