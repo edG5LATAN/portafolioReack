@@ -34,7 +34,7 @@ function Home() {
                 alt=""
               />
             </a>
-            <a target="_black" href="./public/documento/curriculumVitae.pdf">
+            <a target="_black" href="./documento/curriculumVitae.pdf">
               <img
                 className="home-informacion-icono"
                 src="./img/iconos/curriculun.png"
