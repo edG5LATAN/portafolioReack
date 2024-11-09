@@ -22,10 +22,17 @@
   align-items: center;
   box-sizing: border-box;
 }
+.trabajos_esconder{
+  display: none;
+}
 @media (max-width:480px) {
-  .trabajos-contenedor{
-    width: 98%;
-    height: auto;
-    /* overflow: hidden; */
+  .trabajos{
+    display: none;
+  }
+  .trabajos_esconder{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
   }
 }

@@ -9,7 +9,7 @@ Portafolio Backend donde te presento varios proyectos usados en algunos de mi pr
 
 ## Informacion
 
--Para usar nuestros proyectos Backend deberas poner tus propias configuraciones en properties en Spring-Boot y express modificar tus direcciones web.
+-Para usar nuestros proyectos Backend deberas poner tus propias configuraciones en properties (tus variables de entorno) en Spring-Boot y express modificar tus direcciones web.
 
 
 
