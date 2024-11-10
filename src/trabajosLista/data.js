@@ -2,7 +2,7 @@ export const data = [
   {
     id: "1",
     imagen: "https://i.pinimg.com/originals/bd/99/1e/bd991eb9cb312c3fa7c1529dcc1dfd3c.png",
-    nombre: "Api de contactos",
+    nombre: "Backend de contactos",
     informacion: "Agenda virtual Backend creada con SpringBoot de java y usando base de datos MYSQL y Swagger para su documentacion donde podras guardar editar eliminar y actualizar, con implementacion de seguridad de autenticacion de roles y JWToken",
     catalogo: "https://github.com/edG5LATAN/SpringBoot-Contacto-doc-Swagger/tree/main",
     demo: "https://youtu.be/xhehHaIGujU"
@@ -25,7 +25,7 @@ export const data = [
   },
   {
     id: "4",
-    imagen: "https://i.pinimg.com/originals/1f/67/9b/1f679b074f0fbb94e1531362dce7b730.png",
+    imagen: "https://i.pinimg.com/originals/79/c6/70/79c670029c8f86ed6e13ed35c07aa569.png",
     nombre: "Backend Lavanderia",
     informacion: "Primer proyecto de Backend con NodeJS y Express para lavanderia de mi primer trabajo con un simple crud donde se podia eliminar crear actualizar y mostrar la lista de clientes y poder tener una opcion donde el cliente podia ver sin ningun bloqueo el estado de su paquetes",
     catalogo: "https://github.com/edG5LATAN/ecoCleanBackendExpress/tree/master",
@@ -33,43 +33,18 @@ export const data = [
   },
   {
     id: "5",
-    imagen: "img/trabajos/imagenChuckNorris.png",
-    nombre: "mejores chistes",
-    informacion: "Los mejores chistes de la leyenda americana Chuck Norris donde podras ver los chiste por su categoria asi como deportes , religion y muchos mas podras reirte con nuestros amigos bob esponja, calamardo y muchos mas recuerda compartirla con tus familiares y amigos. ",
-    catalogo: "https://chuck-norrys-joks.vercel.app/",
-    demo: "https://youtu.be/hGdKBAx9qvE?si=CdOEHA8qnKgeiJXP"
+    imagen: "https://i.pinimg.com/originals/48/30/1c/48301c088bc44a4defec062b42c8eba8.png",
+    nombre: "Backend de microEmpresa",
+    informacion: "Uno de mis primeros proyectos backend de una pequeña empresa de reparaciones telefonicas creada con NodeJs con Express con implementaciones de creacion, actualizacion, leer y eliminar clientes o productos",
+    catalogo: "https://github.com/edG5LATAN/tecnicareExpress/tree/master",
+    demo: "https://github.com/edG5LATAN/tecnicareExpress/tree/master"
   },
   {
     id: "6",
-    imagen: "img/trabajos/imagenApiWather.png",
-    nombre: "app del clima",
-    informacion: "Aplicacion de clima, esta es una app basica sobre el clima con la informacion meteorologicas como sus grados celcius y la hora de el amanecer y el atardecer, tambien el nombre de tu ciudad con tu zona horaria de su ubicacion para poder usarla debe aceptar a alerta de conocer tu ubicacion cuando cargue aparesca tu latitud y longitud podras dar en buscar los datos de dicha ubicacion y podras ver los datos climaticos(nota activa tu ubicacion). ",
-    catalogo: "https://weather-app-sigma-gott-85.vercel.app/",
-    demo: "https://youtu.be/-WmSWJYzfgs"
-  },
-  {
-    id: "7",
-    imagen: "img/trabajos/marvelPortada.png",
-    nombre: "app marvel",
-    informacion: "La mejor API de busqueda de tu personaje favoritos en el mundo de marvel, aca podras encontrar todos los personajes de todos los comics, series con su informacion como la fecha de creacion y en la que aparecio con la app podras buscar por tu heroe de marvel favorito solo ingresando el nombre del mismo o buscarlo por el paginador de la app(nota Backend tarda un poco en cargar).",
-    catalogo: "https://marvel-proyect-api.vercel.app/",
-    demo: "https://www.youtube.com/watch?v=WAq5MRVzp0g"
-  },
-  {
-    id: "8",
-    imagen: "img/trabajos/calculadora.png",
-    nombre: "calculadora simple",
-    informacion: "primera calculadora simple donde podras hacer operaciones matematicas basicas con o sin decimales y operaciones combinadas seguidas llevando siempre el orden de operacin ",
-    catalogo: "https://newcalculadorasimple.netlify.app/",
-    demo: "https://newcalculadorasimple.netlify.app/"
-  },
-  {
-    id: "9",
-    nombre: "juego de mentalista",
-    imagen: "img/trabajos/mentalista.png",
-    informacion: "juego para divertirte con tus familiares y amigos donde pondras en practica tu suerte y el manejo de calculos de busqueda de numeros podras compartirla con tus amigos y familiares",
-    catalogo: "https://edg5latan.github.io/juegoAdivinanzaAlura/",
-    demo: "https://edg5latan.github.io/juegoAdivinanzaAlura/"
+    imagen: "https://i.pinimg.com/originals/08/7d/d3/087dd3e5b73aaf4814ee3ffbe1cba627.png",
+    nombre: "Backend lavanderia v1.0.1",
+    informacion: "Actualizacion de Backend de lavanderia de mi primer trabajo anteriormente estaba creada en express de NodeJS con la actualizacion pasamos a JAVA con SpringBoot y SpringSecurity y su base de datos siempre en MYSQL con su authorization por roles de usuario de empleado y su autenticacion por Json Web Token",
+    catalogo: "https://github.com/edG5LATAN/lavanderiaSpring/tree/master",
+    demo: "https://github.com/edG5LATAN/lavanderiaSpring/tree/master"
   }
-
 ]

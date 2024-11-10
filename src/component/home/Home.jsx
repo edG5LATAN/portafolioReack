@@ -8,10 +8,9 @@ function Home() {
       <div className="home-contenedor">
         <div className="home-informacion">
           <h1>Edwin Castro</h1>
-          <h3>Programador junior con conocimiento en Java y Reack</h3>
+          <h3>Desarrollador en Backend con JAVA SpringBoot y Frontend en React</h3>
           <p>
-            Soy graduado de la promocion Alura latan, Oracle nextEducation, UDEMY
-            con conocimiento en lenguage Java, SpringBoot, React, JavaScript.
+            Desarrollador con conocimientos en Spring Boot, SpringSecurity de JAVA y Nodejs con Express y Frontend con HTML, CSS, JS, Bootstrap, React, NodeJS, base de datos con MYSQL, ORACLE y control de versiones con GITHUB.
           </p>
           <div className="home-informacion-contenedor-icono">
             <a
