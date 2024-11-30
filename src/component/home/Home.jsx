@@ -1,8 +1,19 @@
 import React from "react";
+import ReactGA from 'react-ga4';
 import "./Home.css";
 import { Link } from "react-router-dom";
 
 function Home() {
+
+  const descargarCurriculum=()=>{
+    ReactGA.event({
+      category:"curriculum",
+      action:"descargar_curriculum"
+    })
+
+  }
+
+
   return (
     <div className="home">
       <div className="home-contenedor">
@@ -35,6 +46,8 @@ function Home() {
             </a>
             <a target="_black" href="./documento/curriculumVitae.pdf">
               <img
+              onClick={descargarCurriculum}
+              title="Curriculum"
                 className="home-informacion-icono"
                 src="./img/iconos/curriculun.png"
                 alt=""

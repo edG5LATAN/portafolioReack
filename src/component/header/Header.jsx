@@ -1,8 +1,20 @@
 import React from "react";
+import ReactGA from 'react-ga4';
 import "./Header.css";
 import { Link } from "react-router-dom";
 
 function Header() {
+
+  const verCertificados=()=>{
+    ReactGA.event({
+      category: 'certicados',
+      action: 'ver_certificados',
+    });
+  }
+
+   
+
+
   return (
     <div className="header">
       <Link to="/">
@@ -23,7 +35,7 @@ function Header() {
       </Link>
 
 
-       <a href="https://app.aluracursos.com/emprega-one/profile/castromaradiaga0" target="_blank">
+       <a onClick={verCertificados} href="https://app.aluracursos.com/emprega-one/profile/castromaradiaga0" target="_blank">
         <span class="material-symbols-outlined graduado">school</span>
        </a>
     </div>

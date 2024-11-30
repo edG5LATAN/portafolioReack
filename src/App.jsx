@@ -1,5 +1,6 @@
-import { BrowserRouter, Routes , Route} from 'react-router-dom'
+import { BrowserRouter, Routes , Route, useLocation} from 'react-router-dom'
 import './App.css'
+import ReactGA from 'react-ga4';
 import Home from './component/home/Home'
 import Header from './component/header/Header'
 import SobreMi from './component/sobremi/SobreMi'
@@ -7,12 +8,33 @@ import Pasatiempo from './component/pasatiempo/Pasatiempo'
 import Estudios from './component/estudios/Estudios'
 import Formulario from './component/formulario/Formulario'
 import Trabajos from './component/trabajos/Trabajos'
+import { useEffect } from 'react';
+
+const PageViewTracker = () => {
+  const location = useLocation();
+  
+  useEffect(() => {
+    ReactGA.send({ hitType: 'pageview', page: location.pathname });
+  }, [location]);
+
+  return null;
+};
 
 function App() {
+
+  useEffect(()=>{
+
+    ReactGA.initialize('G-2MSV9T98P7')
+    
+    ReactGA.send('pageView')
+
+  },[])
+
 
   return (
     <div className='app'>
       <BrowserRouter>
+      <PageViewTracker />
       <Header />
         <Routes>
           <Route path='/' element={<Home />}/>
