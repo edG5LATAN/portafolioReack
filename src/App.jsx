@@ -23,8 +23,8 @@ const PageViewTracker = () => {
 function App() {
 
   useEffect(()=>{
-
-    ReactGA.initialize('G-2MSV9T98P7')
+    const appGA= import.meta.env.VITE_GOOGLE_ANALITIC
+    ReactGA.initialize(appGA)
     
     ReactGA.send('pageView')
 
