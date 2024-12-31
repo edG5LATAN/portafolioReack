@@ -44,7 +44,7 @@ function Home() {
                 alt=""
               />
             </a>
-            <a target="_black" href="./documento/curriculumVitae.pdf">
+            <a target="_black" href="./documento/Curriculum-Back-End.pdf">
               <img
               onClick={descargarCurriculum}
               title="Curriculum"
