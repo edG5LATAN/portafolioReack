@@ -46,5 +46,13 @@ export const data = [
     informacion: "Actualizacion de Backend de lavanderia de mi primer trabajo anteriormente estaba creada en express de NodeJS con la actualizacion pasamos a JAVA con SpringBoot y SpringSecurity y su base de datos siempre en MYSQL con su authorization por roles de usuario de empleado y su autenticacion por Json Web Token",
     catalogo: "https://github.com/edG5LATAN/lavanderiaSpring/tree/master",
     demo: "https://github.com/edG5LATAN/lavanderiaSpring/tree/master"
+  },
+  {
+    id: "7",
+    imagen: "https://i.pinimg.com/736x/d9/bf/0f/d9bf0f52c1b94698951df1b7a5bb62ee.jpg",
+    nombre: "SpringBoot Backend agendaOnline",
+    informacion: "proyecto de desarrollo full-stack! La aplicación consta de un frontend desarrollado con React y un backend utilizando Spring Boot. He implementado medidas de seguridad robustas para asegurar tanto las rutas del frontend como las del backend",
+    catalogo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ",
+    demo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ"
   }
 ]
