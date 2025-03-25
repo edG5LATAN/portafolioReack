@@ -54,5 +54,13 @@ export const data = [
     informacion: "proyecto de desarrollo full-stack! La aplicación consta de un frontend desarrollado con React y un backend utilizando Spring Boot. He implementado medidas de seguridad robustas para asegurar tanto las rutas del frontend como las del backend",
     catalogo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ",
     demo: "https://youtu.be/BdgBXdQkdPs?si=ii5wPZFmKZi5nJjJ"
+  },
+  {
+    id: "8",
+    imagen: "https://i.pinimg.com/736x/a2/37/72/a23772a0fa8bc6135a52fc04f2a12ccd.jpg",
+    nombre: "SpringBoot Reproductor video online",
+    informacion: "Reproductor de videos online por usuario con autenticacion con JWT y autenticacion por Cockie enviando al frontend para solo ser accesible por la pagina del fronted y evitar errores de seguridad",
+    catalogo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs",
+    demo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs"
   }
 ]
