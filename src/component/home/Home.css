@@ -14,6 +14,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 15px; */
 }
 .home-informacion>h1{
   padding:10px 0;
@@ -80,7 +82,7 @@
   }
   .home-informacion{
     padding: 0 5px;
-  
+  padding: 10px;
   }
 
   .home-img-foto{

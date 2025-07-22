@@ -64,3 +64,78 @@ export const data = [
     demo: "https://youtu.be/wbemAJVuZeg?si=8I2nakrsIfsyBUFs"
   }
 ]
+
+export const pasaTiempos=[
+  {
+    id:1,
+    img:"./img/pasatiempos/baloncesto.webp",
+    nombre:"baloncesto"
+  },
+  {
+    id:2,
+    img:"./img/pasatiempos/manga.webp",
+    nombre:"manga"
+  },
+  {
+    id:3,
+    img:"./img/pasatiempos/aprender.webp",
+    nombre:"Didactico"
+  },
+  {
+    id:4,
+    img:"./img/pasatiempos/videojuegos.webp",
+    nombre:"video juego"
+  },
+  {
+    id:5,
+    img:"./img/pasatiempos/baloncesto.webp",
+    nombre:"baloncesto"
+  },
+  {
+    id:6,
+    img:"./img/pasatiempos/codificar.webp",
+    nombre:"Codificar"
+  },
+]
+
+export const estudios=[
+  {
+    id:1,
+    img:"./img/estudios/alura1.webp",
+    colegio:"Alura Latan",
+    estudio:"desarrollador junior",
+    informacion:"Frontend con React y Js, Backend con java SpringBoot, Python para DataScience, Mysql base de datos, Aministrador Mysql Server."
+  },
+  {
+    id:2,
+    img:"./img/estudios/Infop.webp",
+    colegio:"infop",
+    estudio:"tecnico",
+    informacion:"Tecnico en electronica general y en computacion y mantenimiento de impresoras y computadoras instalacion de software ...",
+  },
+  {
+    id:4,
+    img:"./img/estudios/oracle.webp",
+    colegio:"oracle",
+    estudio:"Formacion ORACLE",
+    informacion:"Formación de Oracle Cloud Infrastructure conceptos basicos de computacion en nubes para comprender su arquitectura de Oracle Cloud para crear servicios en la nube redes virtuales y load balancer.",
+  },
+  {
+    id:5,
+    img:"./img/estudios/udemy.webp",
+    colegio:"UDEMY",
+    estudio:"bases de JS",
+    informacion:"Buenas practicas de Javascript, dominio y manejo de las variables, array, creacion de proyectos usando Js Html y Css, uso de fetch y recursos de api",
+  },
+  {
+    id:6,
+    img:"./img/estudios/universidadPedagogica.webp",
+    colegio:"universidad pedagogica",
+    estudio:"diplomado de ingles",
+    informacion:"Diplomado de ingles para comprendimiento y manejo comunicativo para leer manuales tecnicos en reparaciones y entablar conversaciones.",
+  }
+]
+        
+
+
+   

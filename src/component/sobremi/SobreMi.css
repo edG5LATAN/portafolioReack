@@ -8,6 +8,10 @@
 .sobremi-contenedor{
   width: 70%;
   color: white;
+  /* background-color: rgba(0, 0, 0, 0.87); */
+  /* padding: 15px;
+  border-radius: 20px; */
+
 }
 .sobremi-titulo{
   margin-bottom: 20px;
@@ -33,7 +37,14 @@
   }
 }
 @media(max-width:480px){
+  .sobremi{
+    min-height: 100vh;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
   .sobremi-contenedor{
     width: 90%;
+    border-radius: 18px;
+    padding: 10px;
   }
 }

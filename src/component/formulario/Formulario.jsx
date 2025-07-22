@@ -1,4 +1,5 @@
 import './Formulario.css'
+import { motion } from 'framer-motion'
 
 function Formulario() {
   return (
@@ -20,7 +21,8 @@ function Formulario() {
           <label htmlFor="coments" name>Comentario</label>
           <textarea name="coments" id="coments" cols="20" rows="5" placeholder='ingrese su comentario'></textarea>
           <div className='formulario-contenedor-btn'>
-          <button type="submit" className='formulario-btn'>Enviar</button>
+          <motion.button whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.8 }} type="submit" className='formulario-btn'>Enviar</motion.button>
 
           </div>
           <input type="hidden" name="_next" value="https://portafolio-reack.vercel.app/"/>
